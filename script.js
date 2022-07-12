@@ -53,11 +53,9 @@ let fantasy =[
 
 
 
-//for(let action = 0; film <= action.length; action++){
-  //if(action[film] >= 2010){
-    //console.log(`film novo ${movie}`)
-  //}
- //else{
-  //console.log(`filme antigo`)
- //}
-//}
+let movie = action[0].title;
+if (movie === "Top Gun: Maverick"){
+    console.log(`My favorite movie is:`, movie)
+}else{
+    console.log('NOT EVEN 5 STARS')
+}
